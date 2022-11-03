@@ -1,13 +1,22 @@
-function prime(number){
-let factor = 0; 
-for (i=1; i<(number**0.5); i++){
- if(number%i==0){
-  factor++;
- }
-if(factor == 1){
-console.log("Prime");
- }else{
-console.log("Not a Prime");
-}
-}
+
+function checkprime(num){
+let count=0;
+for (let i=0;i<=num;i++){
+if (num%i==0){
+count++;
+    }
+if (count==2){
+return true;
+
+
+
+
+let ans==checkprime(13);
+if (ans==true){
+console.log("Prime number");
+}else {
+console.log("Not a Prime number");}
+
+
 prime(13);
+
