@@ -1,12 +1,13 @@
-function reverse(string){
-let bag="";
-for (let i=string.length-1;i>=0;i--){
-bag+=string[i];
+function pallindrome(string){
+let string = ;
+let reverse = "";
+for (i=string.length-1; i>=0; i--){
+  reverse+=string[i];
 }
-return bag;
+if(reverse == string){
+console.log("Pallindrome");
+}else{
+console.log("Not a Pallindrome");
+  }
 }
-let reversed=reverse(string);
-if (string==reversed){
-console.log("Palindrome");
-}else {
-console.log("Not a palindrme")}
+pallindrome("akshay");
